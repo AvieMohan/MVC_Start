@@ -21,5 +21,8 @@ namespace MVC_Start
         WebHost.CreateDefaultBuilder(args)
             .UseStartup<Startup>()
             .Build();
+        //Testing for GitHub Assignment 3
+        //adding new comment from Kirti Vasdev
+        //adding I love Dachshunds! from Laura HZ
   }
 }
