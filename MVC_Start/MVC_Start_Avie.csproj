@@ -5,8 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Home\contact.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\lib\" />
     <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\Contact.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
